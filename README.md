@@ -1,2 +1,9 @@
-# WicHacks
-WicHacks 2018 @ R.I.T
+# Skill-swap
+
+A website to exchane skills for free.
+
+## Technology
+
+* Front-end : CSS, HTML, jQuery
+* Back-end : mySQL, PHP
+
