@@ -1,0 +1,59 @@
+body {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+}
+
+h1{
+	letter-spacing: 5px;
+}
+
+#one {
+	text-decoration: overline;
+	float: left;
+
+}
+
+#two {
+float: right;
+}
+
+
+.MentorSlides {	
+	width: 100%;
+	height: 600px;
+}
+
+
+.signup{
+	
+	position: fixed;
+	margin-top: 330px;
+	
+	
+	width: 270px;
+	height: 70px;
+	
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	font-size: 30px;
+	letter-spacing: 5px;
+	word-spacing: 7px;
+	
+	border: hidden;
+	border-radius: 5px;
+
+	
+	font-family: "annie-use-your-telescope";
+}
+
+#learner
+{
+	margin-left: -210px;
+}
+
+#mentor
+{
+	margin-left: 450px;
+}

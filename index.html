@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Skill Swap</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<div>
+<h1 id="one">SKILL-SWAP</h1>
+<h1 id="two">The Mentorship Program</h1>
+	</div>
+	
+<main>
+	<div>
+<button class= "signup" id="learner"> Learners </button>
+<button class= "signup" id="mentor" onClick="mentorSignUp()">  Mentors </button>
+  	</div>
+	
+<img class ="MentorSlides" src="images/4.jpg">
+<img class ="MentorSlides" src="images/5.jpg">
+<img class ="MentorSlides" src="images/3.jpg"> 
+	
+	
+	
+	 <script>
+	var slideIndex = 0;
+	var captions = new Array(3);
+		 captions[0] = "I can finally connect with real people!";
+		 captions[1] = "You have a community to support you, that's what matters";
+		 captions[2] = "This is the best thing. Period";
+		 
+		carousel();
+		
+		function carousel(){
+			var i;
+    		var x = document.getElementsByClassName("MentorSlides");
+    		for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+    			}
+			slideIndex++;
+			
+    		if (slideIndex > x.length) {slideIndex = 1} 
+    			x[slideIndex-1].style.display = "block"; 
+    			setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+		 
+		 function mentorSignUp(){
+			 location.href = "/mentor.php";
+		 }
+		
+	</script>
+
+
+	
+	
+</main>
+
+</body>
+</html>
